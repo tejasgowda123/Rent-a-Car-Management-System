@@ -40,11 +40,11 @@ public class Car implements Serializable {
         this.RentPerHour = RentPerHour;
         this.carOwner = carOwner;
     }
-
+//to get customer id
     public int getID() {
         return ID;
     }
-
+//to set customer id
     public void setID(int ID) {
         this.ID = ID;
     }
@@ -64,7 +64,7 @@ public class Car implements Serializable {
     public void setName(String Name) {
         this.Name = Name;
     }
-
+//to get required colour
     public String getColour() {
         return Colour;
     }
